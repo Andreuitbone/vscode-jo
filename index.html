@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="https://conhecimentocientifico.r7.com/wp-content/uploads/2022/09/Atlantida.png.webp" alt="">
+            <p>Um dia desses, dentro de um livro da biblioteca da escola, eu descobri uma carta antiga sobre uma cidade perdida, escondida por riquezas e belezas naturais. Nessa carta, a autora deixa algumas pistas para encontrar essa cidade e eu decidi segui-las!</p>
+            <button class="btn-proximo" data-proximo="1">Ilha dos tritões</button>
+            <button class="btn-proximo" data-proximo="2">Mar vermelho</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você começa sua jornada na ilha dos tritões, subindo a montanha no mar para encontrar a primeira pista.</p>
+            <button class="btn-proximo" data-proximo="3">Procurar a pista no topo do pico</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>No mar vermelho, você visita a histórica cidade vermelha. Na carta, uma das pistas indica que para localizar a entrada para a cidade perdida você deve procurar a próxima pista em um dos pontos turísticos da cidade. Por qual você começa?</p>
+            <button class="btn-proximo" data-proximo="5">Investigar os cabarés destruídos</button>
+            <button class="btn-proximo" data-proximo="6">Explorar as áreas próximas</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>No topo da ilha dos tritões, você encontra uma antiga inscrição apontando que a próxima pista está
+                localizada no cabaré de sereias.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o cabaré das sereias</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="https://assets.folhavitoria.com.br/images/c5967ef0-cfec-11ee-b171-0907e3a71f38--minified.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria
+                encontrado.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Nos cabarés destruídos, você descobre um mapa antigo escondido atrás de uma cômoda, apontando que a próxima
+                pista está no Cabaré das sereias.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para o Cabaré</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Explorando a área, você encontra uma caverna escondida, mas ela leva a um beco sem saída.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e explorar os Cabarés destruídos</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>No cabaré, a busca pela cidade perdida se intensifica. Você se depara com um rio bifurcado.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pelo rio à esquerda</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pelo rio à direita</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>De volta aos Cabarés destruídos, você finalmente encontra o mapa antigo. Agora, para o Cabaré de sereias!</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Cabaré de sereias</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>O rio à esquerda leva você a uma cachoeira escondida com inscrições antigas que revelam a entrada da
+                cidade perdida.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>O rio à direita termina em uma área pantanosa. Apesar de belas vistas, não há sinais da cidade perdida
+                aqui.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro rio</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="https://s2-techtudo.glbimg.com/RYWcqwkcKNqjfUkVxQGqUTLvOdo=/0x0:695x390/1000x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/r/k/GWWcyJRoOYr3LmqJn4cQ/2016-01-21-minecraft-nova-versao-monumento-oceano.jpg" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Dentro da cidade perdida, você descobre tesouros inimagináveis e decide se dedicar a estudar e preservar
+                este lugar</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Retornando e escolhendo o rio à esquerda, você finalmente encontra a cachoeira escondida e as inscrições
+                que levam à cidade perdida.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
